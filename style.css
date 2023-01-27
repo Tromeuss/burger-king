@@ -1,38 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
 
-*
-{
-    margin: auto;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
 }
 
 
-header
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+.head
 {
-    width: auto;
+    width: 100%;
     background-color: rgb(245, 235, 220);
-    height: 100px;
+    height: 90px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position:  fixed;
+}
 
+.bx-menu
+{
+    font-size: 40px;
+    margin-right: 20px;
 }
 
 .logo
 {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 47.5%;
+    top: 13%;
+    margin-top: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 7px;
+    
+    
 }
 
 .nav
 {
     display: flex;
     flex-direction: row;
-    gap: 60px 20px 20px 20px;
     list-style-type: none;
-    margin: 30px;
+    justify-content: space-between;
+    margin: 0;
+    width: 500px;
+    font-size: 17px;
+    color: rgb(80, 35, 20);
+    font-style: normal;
+    text-decoration: none;
+
 
     
 }
 
+
 .nav-link
 {
-    margin: 20px;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(80, 35, 20);
+    margin-right: 7px;
+    padding-top: 9px;
+}
+
+.nav-right
+{
+    margin: 0;
+    align-items: center;
+    font-size: 29px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(80, 35, 20);
+}
+
+.btn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 13px;
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: 0;
+    font-weight: bold;
+
+   
+}
+
+.bxs-map
+{
+    margin-right: 15px;
+}
+
+
+.bxl-sketch
+{
+    margin-right: 12px;
+}
+
+
+
+.bxs-shopping-bag
+{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider
+{
+    background-color: black;
+    height: 830px;
+    background-image: url(/img/peanut.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    
+
+}
+
+
+
+.bx-caret-left-circle
+{
+    font-size: 30px;
+    color:  #C9C5C5;
+    text-decoration: none;
+
+}
+
+
+.fleche
+{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.btn_
+{
+    margin-bottom: 50px;
+    height: 50px;
+    width: 130px;
+    background-color: rgb(214, 35, 0);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+
+.cont_btn_
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: auto;
+    height: 830px;
+    padding-right: 45px;
+}
+
+
+
+
+
+.points
+{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.point
+{
+    font-size: 40px;
+}
+
+
+
+.second
+{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
 }
